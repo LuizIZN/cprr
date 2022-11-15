@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: darkslategray;
+  text-shadow: 1px 1px 1px darkslategray;
+  text-align: center;
+}
+
+button {
+  padding: 1em;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: darkslategray;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #fee;
+  transition: background 1s;
+  cursor: pointer;
+}
